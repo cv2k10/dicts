@@ -11,9 +11,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Dictionaries and Translators" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <ul>
+            <li>
+              <a src="#">Dict 1</a>
+            </li>
+            <li>
+              <a src="#">Dict 2</a>
+            </li>            
+          </ul>
         </p>
       </main>
 
